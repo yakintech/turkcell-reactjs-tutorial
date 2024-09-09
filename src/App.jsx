@@ -1,18 +1,25 @@
 import React from 'react'
-import SiteFooter from './components/SiteFooter'
-import SiteHeader from './components/SiteHeader'
-import OneWayBinding from './jsxSample/OneWayBinding'
-import UserDetail from './propsSample/UserDetail'
+import { Link, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import ContactPage from './pages/ContactPage'
+import AboutPage from './pages/AboutPage'
 
 function App() {
 
   return <>
-  <UserDetail name="Ece" email="ece@mail.com" age={20} address="Süleyman Seba caddesi No:79 Beşiktaş" country="Türkiye"  />
+    <ul>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
+      <li><Link to="/about">About</Link></li>
+    </ul>
+    <Routes>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/contact' element={<ContactPage />} />
+      <Route path='/about' element={<AboutPage />} />
+    </Routes>
 
-  <UserDetail name="Çağatay" email="cagatay@mail.com" age={22} address="Moda mahallesi Kadıköy" country="Türkiye"  />
+    <h1>Footer</h1>
   </>
-
 }
-
 
 export default App
