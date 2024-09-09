@@ -6,6 +6,7 @@ function OneWayBinding() {
     var name = "Çağatay"
     var age = 18
     var cities = ["İzmir", "İstanbul", "Ankara"]
+    var onlineStatus = true
 
     return <>
         <h1>Name: {name}</h1>
@@ -16,6 +17,9 @@ function OneWayBinding() {
                 cities.map(item => <li>{item}</li>)
             }
         </ul>
+        {
+            onlineStatus == true ? <h1>User Online!</h1> : <h1>User Offline</h1>
+        }
     </>
 }
 
