@@ -15,10 +15,12 @@ import StateIfElseSample from './state/StateIfElseSample'
 import StateObjectArraySample from './state/StateObjectArraySample'
 import StateInputSample from './state/StateInputSample'
 import NameArraySample from './state/NameArraySample'
+import ColorDivSample from './state/ColorDivSample'
+import CelciusToFahrenayt from './state/CelciusToFahrenayt'
 
 function App() {
 
-  return <NameArraySample/>
+  return <CelciusToFahrenayt/>
 
   return <>
     <ul>
