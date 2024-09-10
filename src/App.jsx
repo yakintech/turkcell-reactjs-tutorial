@@ -14,10 +14,11 @@ import StateArraySample from './state/StateArraySample'
 import StateIfElseSample from './state/StateIfElseSample'
 import StateObjectArraySample from './state/StateObjectArraySample'
 import StateInputSample from './state/StateInputSample'
+import NameArraySample from './state/NameArraySample'
 
 function App() {
 
-  return <StateInputSample/>
+  return <NameArraySample/>
 
   return <>
     <ul>
