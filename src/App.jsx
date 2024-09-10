@@ -11,10 +11,11 @@ import ProductDetail from './pages/ProductDetail'
 import JsxEvents from './jsxSample/JsxEvents'
 import StateSample from './state/StateSample'
 import StateArraySample from './state/StateArraySample'
+import StateIfElseSample from './state/StateIfElseSample'
 
 function App() {
 
-  return <StateArraySample/>
+  return <StateIfElseSample/>
 
   return <>
     <ul>
