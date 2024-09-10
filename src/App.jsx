@@ -8,8 +8,13 @@ import CategoriesPage from './pages/CategoriesPage'
 import CategoryDetail from './pages/CategoryDetail'
 import ProductsPage from './pages/ProductsPage'
 import ProductDetail from './pages/ProductDetail'
+import JsxEvents from './jsxSample/JsxEvents'
+import StateSample from './state/StateSample'
+import StateArraySample from './state/StateArraySample'
 
 function App() {
+
+  return <StateArraySample/>
 
   return <>
     <ul>

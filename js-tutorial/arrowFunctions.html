@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    //string, number, bool, object
+    let name = "Çağatay"
+    let price = 22.1
+    let status = false
+    let user = {
+        name: "Müge",
+        age: 18
+    }
+
+    function hi() {
+        alert("Hi")
+    }
+
+    let hello = function () {
+        alert("Hello")
+    }
+
+    //Arrow functions...
+
+    let merhaba = () => {
+        alert("Merhaba")
+    }
+
+    //aşağıdaki arrow function dışarıya bir Date değeri döner
+    let getDate = () => new Date()
+
+    //normal fonksiyon karşılığı
+    function getDate2(){
+        return new Date()
+    }
+
+    //aşağıdaki arrow functiın dışarıdan bir data alır ve onun 1.2 katını döner
+    let calc = price => price * 1.2
+    let cal2 = (price) => {
+        return price * 1.2
+    }
+
+</script>
+
+</html>
