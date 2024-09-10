@@ -17,10 +17,11 @@ import StateInputSample from './state/StateInputSample'
 import NameArraySample from './state/NameArraySample'
 import ColorDivSample from './state/ColorDivSample'
 import CelciusToFahrenayt from './state/CelciusToFahrenayt'
+import ProductsGrid from './state/ProductsGrid'
 
 function App() {
 
-  return <CelciusToFahrenayt/>
+  return <ProductsGrid/>
 
   return <>
     <ul>
