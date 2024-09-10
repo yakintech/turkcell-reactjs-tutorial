@@ -6,6 +6,8 @@ import AboutPage from './pages/AboutPage'
 import NotFound from './pages/NotFound'
 import CategoriesPage from './pages/CategoriesPage'
 import CategoryDetail from './pages/CategoryDetail'
+import ProductsPage from './pages/ProductsPage'
+import ProductDetail from './pages/ProductDetail'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <li><Link to="/contact">Contact</Link></li>
       <li><Link to="/about">About</Link></li>
       <li><Link to="/categories">Categories</Link></li>
+      <li><Link to="/products">Products</Link></li>
+
     </ul>
     <Routes>
       <Route path='/' element={<HomePage />} />
@@ -22,6 +26,8 @@ function App() {
       <Route path='/about' element={<AboutPage />} />
       <Route path='/categories' element={<CategoriesPage/>}/>
       <Route path='/categories/:id' element={<CategoryDetail/>} />
+      <Route path='/products' element={<ProductsPage/>} />
+      <Route path='/products/:id' element={<ProductDetail/>} />
       <Route path='*' element={<NotFound/>} />
     </Routes>
 

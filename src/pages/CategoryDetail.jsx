@@ -13,8 +13,7 @@ function CategoryDetail() {
         <hr />
         <h1>Id: {id}</h1>
         <h1>Name: {detail?.name}</h1>
-        <h1>Description: {detail?.description
-            }</h1>
+        <h1>Description: {detail?.description}</h1>
     </>
 }
 
