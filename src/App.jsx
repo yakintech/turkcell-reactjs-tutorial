@@ -12,10 +12,12 @@ import JsxEvents from './jsxSample/JsxEvents'
 import StateSample from './state/StateSample'
 import StateArraySample from './state/StateArraySample'
 import StateIfElseSample from './state/StateIfElseSample'
+import StateObjectArraySample from './state/StateObjectArraySample'
+import StateInputSample from './state/StateInputSample'
 
 function App() {
 
-  return <StateIfElseSample/>
+  return <StateInputSample/>
 
   return <>
     <ul>

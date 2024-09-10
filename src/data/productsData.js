@@ -960,9 +960,5 @@ export const productsData = [
         "reorderLevel": 15,
         "discontinued": false,
         "name": "Original Frankfurter grüne Soße"
-    },
-    {
-        "id":78,
-        "name":"Samsung"
     }
 ]
