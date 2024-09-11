@@ -23,10 +23,12 @@ import Products from './axiosSample/Products'
 import AddCategory from './axiosSample/AddCategory'
 import AddProduct from './axiosSample/AddProduct'
 import StylingSample from './styling/StylingSample'
+import TailwindSample from './styling/TailwindSample'
+
 
 function App() {
 
-  return <StylingSample/>
+  return <TailwindSample/>
 
   return <>
     <ul>
