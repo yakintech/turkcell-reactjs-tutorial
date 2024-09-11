@@ -21,10 +21,12 @@ import ProductsGrid from './state/ProductsGrid'
 import Suppliers from './axiosSample/Suppliers'
 import Products from './axiosSample/Products'
 import AddCategory from './axiosSample/AddCategory'
+import AddProduct from './axiosSample/AddProduct'
+import StylingSample from './styling/StylingSample'
 
 function App() {
 
-  return <AddCategory/>
+  return <StylingSample/>
 
   return <>
     <ul>
