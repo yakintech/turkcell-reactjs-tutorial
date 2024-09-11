@@ -20,10 +20,11 @@ import CelciusToFahrenayt from './state/CelciusToFahrenayt'
 import ProductsGrid from './state/ProductsGrid'
 import Suppliers from './axiosSample/Suppliers'
 import Products from './axiosSample/Products'
+import AddCategory from './axiosSample/AddCategory'
 
 function App() {
 
-  return <Products/>
+  return <AddCategory/>
 
   return <>
     <ul>
