@@ -18,10 +18,12 @@ import NameArraySample from './state/NameArraySample'
 import ColorDivSample from './state/ColorDivSample'
 import CelciusToFahrenayt from './state/CelciusToFahrenayt'
 import ProductsGrid from './state/ProductsGrid'
+import Suppliers from './axiosSample/Suppliers'
+import Products from './axiosSample/Products'
 
 function App() {
 
-  return <ProductsGrid/>
+  return <Products/>
 
   return <>
     <ul>
