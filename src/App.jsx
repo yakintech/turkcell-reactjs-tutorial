@@ -24,11 +24,14 @@ import AddCategory from './axiosSample/AddCategory'
 import AddProduct from './axiosSample/AddProduct'
 import StylingSample from './styling/StylingSample'
 import TailwindSample from './styling/TailwindSample'
+import TButton from './ui-elements/button'
 
 
 function App() {
 
-  return <TailwindSample/>
+  return <>
+    <TButton className="w-20 h-20 bg-red-600" onClick={() => alert("Hello")}>Hello</TButton>
+  </>
 
   return <>
     <ul>
