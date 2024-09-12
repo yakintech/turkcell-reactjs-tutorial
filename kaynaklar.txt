@@ -3,3 +3,13 @@ https://www.w3schools.com/js/js_arrow_function.asp
 
 // update arrays in state
 https://react.dev/learn/updating-arrays-in-state
+
+
+//js spread
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+https://www.w3schools.com/react/react_es6_spread.asp
+
+//react i18 - Multilanguage
+https://react.i18next.com/getting-started
+
+
